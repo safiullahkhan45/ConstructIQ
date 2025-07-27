@@ -99,6 +99,7 @@ class NormalizedPermit:
     contractor: Optional[Contractor] = None
     applicant: Optional[Applicant] = None
     valuation: Optional[Valuation] = None
+    work_details: Optional[WorkDetails] = None
     dates: Optional[PermitDates] = None
     metadata: Optional[Dict[str, Any]] = None
 
