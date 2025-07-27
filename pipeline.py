@@ -593,6 +593,16 @@ class AustinPermitsNormalizer:
                         "company_type": "Type of contracting company",
                     },
                 },
+                "Applicant": {
+                    "description": "Applicant information",
+                    "fields": {
+                        "name": "Name of the applicant",
+                        "company": "Name of the applicant's company",
+                        "phone": "Applicant's phone number",
+                        "email": "Applicant's email address",
+                        "address": "Applicant's address",
+                    },
+                },
                 "Valuation": {
                     "description": "Financial information",
                     "fields": {
@@ -601,8 +611,26 @@ class AustinPermitsNormalizer:
                         "currency": "Currency code (default: USD)",
                     },
                 },
+                "WorkDetails": {
+                    "description": "Work description and specifications",
+                    "fields": {
+                        "permit_type": "Type of the permit (e.g., Building, Electrical)",
+                        "work_class": "Class or category of the work",
+                        "description": "Detailed description of the work",
+                        "use_category": "Category of use for the work (e.g., Residential, Commercial)",
+                    },
+                },
+                "PermitDates": {
+                    "description": "Dates related to the permit",
+                    "fields": {
+                        "issue_date": "Date the permit was issued (ISO format)",
+                        "expiration_date": "Date the permit expires (ISO format)",
+                        "application_date": "Date the permit was applied for (ISO format)",
+                    },
+                },
             },
         }
+
 
 
 # Example usage and testing
