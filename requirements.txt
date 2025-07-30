@@ -25,7 +25,6 @@ pydantic_core==2.33.2
 python-dateutil==2.9.0.post0
 python-dotenv==1.1.1
 pytz==2025.2
-psycopg2==2.9.10
 PyYAML==6.0.2
 requests==2.32.4
 six==1.17.0
