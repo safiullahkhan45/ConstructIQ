@@ -19,7 +19,7 @@ RUN apt-get update && apt-get install -y \
     && apt-get clean
 
 # Copy requirements first for better Docker layer caching
-COPY constructiq-api/requirements.txt .
+COPY requirements.txt .
 
 # Install Python dependencies
 RUN pip install --no-cache-dir -r requirements.txt
